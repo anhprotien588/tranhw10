@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Starting to build test_analog application"
+g++ -g AnalogIn.cpp test_analog.cpp -o test_analog
+echo "Finished"

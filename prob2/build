@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Starting to build gpioApp application"
+config-pin p9.12 gpio
+config-pin p8.16 gpio_pu
+g++ -g derek_LED.cpp AnalogIn.cpp GPIO.cpp gpioApp.cpp -o gpioApp -pthread
+echo "Finished"

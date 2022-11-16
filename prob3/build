@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Starting to build read_resistance application"
+g++ -g AnalogIn.cpp read_resistance.cpp -o read_resistance
+echo "Finished"
